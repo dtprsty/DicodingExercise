@@ -14,6 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DicodingExercise"
 include ':customview-app'
-include ':ticketing-apss'
+include ':ticketing-app'
 include ':lib-resources'
 include ':widget-app'
