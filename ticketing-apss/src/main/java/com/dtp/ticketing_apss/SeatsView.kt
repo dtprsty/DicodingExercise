@@ -92,7 +92,7 @@ class SeatsView : View {
         val heightRowOne = (halfOfHeight - 600F)..(halfOfHeight - 400F)
         val heightRowTwo = (halfOfHeight - 300F)..(halfOfHeight - 100F)
         val heightRowTree = (halfOfHeight + 0F)..(halfOfHeight + 200F)
-        val heightRowFour =(halfOfHeight + 300F)..(halfOfHeight + 500F)
+        val heightRowFour = (halfOfHeight + 300F)..(halfOfHeight + 500F)
 
         if (event?.action == ACTION_DOWN) {
             when {
