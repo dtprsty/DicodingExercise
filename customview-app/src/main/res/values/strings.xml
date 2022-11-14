@@ -2,4 +2,5 @@
     <string name="app_name">DicodingExercise</string>
     <string name="action_fill_in_first">Isi Dulu</string>
     <string name="action_submit">Submit</string>
+    <string name="hint_fill_your_name">Masukkan nama Anda</string>
 </resources>

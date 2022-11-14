@@ -3,13 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
+    <com.dtp.customview.CustomEditText
+        android:id="@+id/customEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <com.dtp.customview.CustomButton
-        android:id="@+id/btn"
+        android:id="@+id/customBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp" />
 
 </LinearLayout>
