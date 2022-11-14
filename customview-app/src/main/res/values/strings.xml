@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DicodingExercise</string>
+    <string name="action_fill_in_first">Isi Dulu</string>
+    <string name="action_submit">Submit</string>
 </resources>
