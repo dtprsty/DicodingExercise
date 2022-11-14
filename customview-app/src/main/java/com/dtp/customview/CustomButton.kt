@@ -38,15 +38,14 @@ class CustomButton : AppCompatButton {
         textSize = 12f
         gravity = Gravity.CENTER
         text =
-            if (isEnabled)
-                context.getString(R.string.action_submit)
-            else
-                context.getString(R.string.action_fill_in_first)
+            if (isEnabled) "Submit"
+            else "Isi Dulu"
     }
 
     private fun init() {
         txtColor = ContextCompat.getColor(context, android.R.color.background_light)
         enabledBackground = ContextCompat.getDrawable(context, R.drawable.bg_button) as Drawable
-        disabledBackground = ContextCompat.getDrawable(context, R.drawable.bg_button_disable) as Drawable
+        disabledBackground =
+            ContextCompat.getDrawable(context, R.drawable.bg_button_disable) as Drawable
     }
 }

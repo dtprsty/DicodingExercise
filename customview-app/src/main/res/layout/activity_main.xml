@@ -10,7 +10,8 @@
     <com.dtp.customview.CustomEditText
         android:id="@+id/customEt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fill_your_name" />
 
     <com.dtp.customview.CustomButton
         android:id="@+id/customBtn"

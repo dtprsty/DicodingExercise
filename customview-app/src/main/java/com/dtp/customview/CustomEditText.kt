@@ -71,7 +71,6 @@ class CustomEditText : AppCompatEditText, View.OnTouchListener {
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        hint = context.getString(R.string.hint_fill_your_name)
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
     }
 
